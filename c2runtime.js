@@ -20222,6 +20222,7 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.Platform.prototype.cnds.IsOnFloor,
 	cr.system_object.prototype.cnds.Every,
 	cr.system_object.prototype.acts.CreateObject,
+	cr.system_object.prototype.exps.random,
 	cr.plugins_.Sprite.prototype.acts.SetTowardPosition,
 	cr.plugins_.Sprite.prototype.exps.X,
 	cr.plugins_.Sprite.prototype.exps.Y,
